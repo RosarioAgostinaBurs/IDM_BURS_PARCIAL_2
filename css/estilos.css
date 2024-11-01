@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Graduate&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+h1 
+{
+    color: #004643;
+    font-weight: 900;
+    font-size: 2.5rem;
+    letter-spacing: 0.3rem;
+}
+
+header {
+    background-color: #abd1c6;
+}
+
+main{
+    background-color: #004643;
+}
+
+.producto .btn-verde 
+{
+    background-color: #004643;
+    color: #abd1c6;
+}
+
+.producto
+{
+    background-color: #e8e4e6;
+}
+
+h2 {
+    color: #abd1c6;
+    font-weight: 700;
+}
+
+.producto h3{
+    background-color: #abd1c6;
+    color: #004643;
+}
+
+.precio
+{
+    background-color: #abd1c6;
+}
+
+footer 
+{
+    color: #004643;
+    background-color: #abd1c6;
+}
+
+footer ul{
+    list-style: none;
+}
+
+
+@media (min-width: 768px) {
+    .producto h3 {
+        min-height: 100px;
+    }
+
+    .descripcion-producto {
+        min-height: 300px;
+    }
+}
+
+
+@media (min-width: 992px) {
+
+    .descripcion-producto {
+        min-height: 350px;
+    }
+}
+
+
+@media (min-width: 1400px) {
+    .producto h3 {
+        min-height: 150px;
+    }
+}
